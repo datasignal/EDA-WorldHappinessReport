@@ -9,6 +9,18 @@ The following packages are required to execute the notebook :
 * `matplotlib`
 * `seaborn`
 
+If using `conda`, a ready to use environment can be created with the commands :
+```bash
+# Create the conda environment
+> conda create -f environment.yml
+
+# Activate the environment
+> conda activate eda-happiness
+
+# Launch Jupyter notebook server
+> jupyter notebook
+```
+
 ## List of Tasks
 
 This EDA answers the following list of tasks :
